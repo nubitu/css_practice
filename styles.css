@@ -6,8 +6,29 @@ div {
     color: white;
 }
 
-.class1,
-.class2,
-.class3 {
+.star {
     background-color: hsl(350, 100%, 88%);
+    font-family: "Verdana","DejaVu Sans", sans-serif;
+    color: #000000;
+    text-align: left;
 }
+
+#id1 {
+    color:hsl(240, 100%, 50%);
+    font-size: 36px;
+    background-color: transparent;
+    text-align: left;
+}
+
+#id2 {
+    background-color: hsl(84, 100%, 59%);
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.extraclass {
+    font-size: 24px;
+}
+
