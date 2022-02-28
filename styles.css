@@ -1,0 +1,13 @@
+div {
+    background-color: red;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.class1,
+.class2,
+.class3 {
+    background-color: hsl(350, 100%, 88%);
+}
