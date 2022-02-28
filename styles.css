@@ -32,3 +32,17 @@ div {
     font-size: 24px;
 }
 
+.explosion,
+.extinction {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.explosion {
+    background-color: black;
+    color: white;
+}
+
+.extinction {
+    background-color: yellow;
+}
