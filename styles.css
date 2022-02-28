@@ -62,3 +62,14 @@ div {
     background-color: transparent;
 }
 
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.container {
+    background-color: transparent;
+}
