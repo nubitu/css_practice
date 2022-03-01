@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fix the Cascade</title>
+  <!--<link rel="stylesheet" href="style.css">-->
+  <style>
+
+.para,
+.small-para {
+  color: hsl(0, 100%, 50%);
+  font-size: 60px;
+}
+
+.small-para {
+  font-size: 38px;
+}
+
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+div.text.child {
+  color: red;
+  font-size: 30px;
+}
+
+div.text {
+  color: green;
+  font-size: 33px;
+}
+
+  </style>
+</head>
+<body>
+  <p class="para">I'm just a paragraph with red text!</p>
+  <p class="para small-para">I'm a smaller paragraph, also with red text!</p>
+
+  <button id="confirm-button" class="button confirm">Confirm</button>
+  <button id="cancel-button" class="button cancel">Cancel</button>
+
+  <div class="text">I'm a div with green text!</div>
+  <div class="text">I'm a div with green text and a child div!
+    <div class="text child">I'm a smaller child div with red text.</div>
+  </div>
+</body>
+</html>
